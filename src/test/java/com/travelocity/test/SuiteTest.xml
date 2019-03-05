@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Travelocity test">
+	<parameter name="urlHome" value="https://www.travelocity.com"/>
+	<parameter name="browser" value="chrome"></parameter>
+	<test name = "Travelocity test">
+		<classes>
+			<class name = "com.travelocity.test.FlightTest"> </class>
+		</classes>
+	</test>
+</suite>
